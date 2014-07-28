@@ -1,0 +1,492 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1
+{
+  font-family:"Viner Hand ITC";
+  font-weight:bold;	
+}
+
+h2
+{
+  font-family:"Verdana";
+  text-align:center;
+
+}
+
+a:link 
+{ 
+  text-decoration:none;
+}
+
+.links
+{
+	font-weight:bold;
+	font-size:18px;
+	display:list-item;
+}
+ul
+{
+  list-style-type:none;
+  margin:0;
+  padding:0;   
+}
+
+li
+{
+  display:inline;
+  margin:auto;
+}
+
+.li
+{
+	display:list-item;
+	margin:auto;
+}
+
+.floatleft
+{
+	float:left;
+}
+
+.nav-list
+{
+  /*background-color: SkyBlue;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  list-style-type:none;*/
+    background-color: #eee;
+
+/*  border-radius: 5px;*/
+    display:block;
+  
+    /*width: 100%;*/
+	height: 42px;
+	float: none;
+	margin:auto;
+/*	margin: 0 0 3em 0;*/
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+}
+
+
+.nav-list-item
+{
+ /* background-color: White;
+  opacity:0.9;*/
+ 
+  padding-bottom:9px;
+  float:none;
+}
+
+.nav-list-item a
+{ 
+	padding: 8px 15px;
+	height: 42px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;	
+  /*width:120px;
+  text-decoration: none;
+  color: White;
+  font-family: Arial, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 9px;
+  Text-align:center;
+  padding:4px;
+  Text-transform:uppercase;*/
+}
+
+.nav-list-item a:hover
+{
+  background-color:black;
+}
+
+.page-header 
+{
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+  background-color: #eee;
+  opacity:0.8;
+}
+
+.backclass
+{
+  background:url("TajMahal.jpg") no-repeat center center fixed;
+  text-align:center;
+  background-size:cover;  
+}
+
+.bodyclass
+{	
+  background-color:#eee;
+  text-align:center;
+  color:Black;
+  opacity:0.8;
+  margin:auto;
+}
+
+.centertable
+{
+	margin:auto;
+	text-align:left;
+	width:800px;
+}
+
+.aligncenter
+{
+    text-align:center;	
+}
+
+a
+{
+  color:black;
+}
+
+a:hover
+{
+    padding: 8px 15px;
+	height: 42px;
+	background-color:black;
+	color:white;	
+}
+
+.alignright
+{
+	float:right;
+	margin:0 0 1em 1em;
+}
+
+.active
+{
+  background-color:black;  
+}
+
+p
+{	
+	margin:auto;
+	width:800px;
+	text-align:justify;
+}
+
+.ptoday
+{
+	text-align:center;
+}
+
+.pleft
+{
+	text-align:left;
+}
+
+.displayinline
+{
+display:inline-block;
+float:none;
+background-color:#069;
+}
+
+@media (max-width: 815px)
+{
+	.pbody
+	{
+		width:700px;
+	}
+}
+
+@media (max-width: 768px) {
+	.nav-list
+    {
+        width:600px;
+    }
+	
+	.centertable
+{
+	margin:auto;
+	text-align:left;
+	width:600px;
+}
+
+
+	
+	.page-header 
+    {
+        width:700px;
+    }
+    
+	.bodyclass
+	{
+		width:700px;
+		margin:auto;
+		text-align:center;
+	}
+	.backclass
+	{
+		background-size:cover;
+		text-align:center;
+	}
+
+    h2
+	{
+		width:400px;
+		text-align:center;
+		margin:auto;
+	}
+
+	.pbody
+	{
+		
+		width:600px;
+		text-align:left;
+	}
+	
+	/*h2
+	{
+		font-size:18px;
+		text-align:center;
+	}*/
+	
+	a
+	{
+	    text-align:center;	
+		width:400px;
+	}
+}
+
+@media (max-width: 650px)
+{
+	.pbody
+	{
+		width:500px;
+		
+	}
+}
+
+@media (max-width: 627px)
+{
+	.pbody
+	{
+		width:450px;
+		
+	}
+}
+
+@media (max-width: 615px)
+{
+	.nav-list
+{ 
+    background-color: #eee;
+    display:block;  
+    width: 600px;
+	height: 42px;
+	float: left;
+	margin: auto;
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+}
+}
+@media (max-width: 590px)
+{
+	.pbody
+	{
+		width:350px;
+	}
+	
+	.page-header 
+    {
+        width:600px;
+    }
+	
+	.nav-list
+{ 
+    background-color: #eee;
+    display:block;  
+    width: 600px;
+	height: 42px;
+	float: none;
+	margin: auto;
+	padding: 0;
+	list-style: none;
+
+}
+ 
+ /* .nav-list-item
+  {
+	  width:50px;
+  }*/
+}
+
+@media (max-width: 590px)
+{
+.nav-list
+{ 
+    background-color: #eee;
+    display:block;  
+    width: 500px;
+	height: 42px;
+	float: none;
+	margin: auto;
+	padding: 0;
+	list-style: none;
+
+}
+.page-header 
+    {
+        width:500px;
+    }
+
+}
+@media (max-width: 480px) {
+	.nav-list
+{ 
+    background-color: #eee;
+    display:block;  
+    width: 400px;
+	height: 42px;
+	float:none;
+	margin: auto;
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc;
+}
+
+.page-header 
+    {
+        width:400px;
+    }
+.nav-list-item
+{
+	width:50%;
+	height:50%;
+}
+.centertable
+{
+	margin:auto;
+	text-align:left;
+	width:400px;
+}
+
+.aligncenter
+{
+    text-align:center;	
+	width:50%;
+}
+
+.displayinline
+{
+  display:inline-block;
+  float:none;
+  color:blue;
+  width:50%;
+  margin:auto;
+  
+}
+
+    .bodyclass
+	{
+		width:400px;
+		margin:auto;
+	}
+/*	p
+	{
+		margin:auto;
+		width:350px;
+		align:left;
+	}*/
+	
+	h2
+	{
+	    width:400px;
+		text-align:center;
+	}
+	
+	a:link
+	{
+		text-align:center;
+		width:400px;
+	}
+}
+
+@media (max-width: 360px) {
+	.nav-list
+{
+  width:50%;
+}
+
+a:link
+{
+	width:200px;
+	text-align:center;
+}
+
+.centertable
+{
+	margin:auto;
+	text-align:left;
+	width:200px;
+}
+
+.bodyclass
+	{
+		width:400px;
+		margin:auto;
+	}
+	/*p
+	{
+		margin:auto;
+		width:400px;
+		text-align:justify;
+	}*/
+	
+	h2
+	{
+        width:200px;
+	    text-align:center;
+	}
+}
+
+@media (max-width: 240px) {
+	.nav-list
+    {
+        width:25%;
+    }
+.bodyclass
+	{
+		width:200px;
+		margin:auto;
+	}
+	
+	.centertable
+{
+	margin:auto;
+	text-align:left;
+	width:100px;
+}
+	
+	h2
+	{
+	    text-align:center;
+	}
+	
+	p
+	{
+		margin:auto;
+		width:200px;
+		text-align:justify;
+	}	
+	
+}
+
+
+
